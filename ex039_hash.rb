@@ -42,3 +42,10 @@ end
 city = cities['TX']
 city ||= 'Does not exist'
 puts "The city for the state Texas is: #{city}"
+
+german_num = {"one" => "eins", "two" => "zwei", "three" => "drei",
+							"four" => "vier", "five" => "funf", "six" => "sechs",
+							"seven" => "sieben", "eight" => "acht", "nine" => "neun"}
+
+puts "one : #{german_num["one"]}"
+puts "two : #{german_num["two"]}"
