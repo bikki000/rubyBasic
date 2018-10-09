@@ -2,7 +2,8 @@ cities = %w[tokio london rio paris]
 
 puts "Cities before any action", cities
 
-cities_1 = cities.each {|city| city.capitalize}
+cities_1 = cities.each {|city| city.capita
+	lize}
 
 puts "Cities after 'each' action ", cities
 puts "Cities 1 after 'each' action ", cities_1
